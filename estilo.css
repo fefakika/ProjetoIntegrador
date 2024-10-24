@@ -9,11 +9,11 @@
 body {
     font-size: 1.3em;
     font-family: Arial, Helvetica, sans-serif;
-    background: #cff5be;
+    background: #c2f7ff;
 }
 
 a{
-    color: #da00f7;
+    color: #eca1f6;
     text-decoration: none;
 }
 
@@ -46,7 +46,8 @@ a{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2em;
-    background: #da9de2;
+    border-radius: 20px;
+    background: #f8d1fd;
     margin-bottom: 2em;
     align-items: center;
 }
@@ -61,8 +62,8 @@ img {
 
 .btn{
     display: inline-block;
-    background: #82ff76;
-    color: #0099ff;
+    background: #8696fc;
+    color: #ffffff;
     padding: 0.8em 1.8em;
     margin-top: 2em;
     cursor: default;
@@ -70,7 +71,7 @@ img {
 }
 
 .btn:hover{
-    background-color: aqua;
+    background-color: rgb(117, 188, 255);
     opacity: 0.8;
 }
 
@@ -91,7 +92,7 @@ img {
 
 .galeria div:hover{
     flex: 5;
-    box-shadow: 25px 25px 15px #fd9a04;
+    box-shadow: 25px 25px 15px #eca1f6;
 }
 
 .galeria:hover div:not(:hover){
